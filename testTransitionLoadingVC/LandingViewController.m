@@ -7,14 +7,14 @@
 //
 
 #import "UIViewController+Transition.h"
-#import "BaseViewController.h"
+#import "LandingViewController.h"
 #import "ViewController2.h"
 #import "WebViewController.h"
 #import "ErrorMessageViewController.h"
 #import "LoadingViewController.h"
 #import "RequestDataViewController.h"
 
-@interface BaseViewController ()
+@interface LandingViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *presentButton;
 @property (weak, nonatomic) IBOutlet UIButton *pushButton;
 @property (weak, nonatomic) IBOutlet UIButton *loadButton;
@@ -22,11 +22,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *naviStackButton;
 @end
 
-@implementation BaseViewController
+@implementation LandingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self.presentButton addTarget:self action:@selector(presentButtonTapped) forControlEvents:UIControlEventTouchUpInside];
     [self.pushButton addTarget:self action:@selector(pushButtonTapped) forControlEvents:UIControlEventTouchUpInside];
     [self.loadButton addTarget:self action:@selector(loadButtonTapped) forControlEvents:UIControlEventTouchUpInside];
@@ -35,8 +34,6 @@
 }
 
 - (void)presentButtonTapped {
-//    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-//    ViewController2 *vc = [sb instantiateViewControllerWithIdentifier:@"ViewController2"];
     RequestDataViewController *vc = [[RequestDataViewController alloc] init];
     [self presentViewController:vc animated:YES completion:^{}];
 }

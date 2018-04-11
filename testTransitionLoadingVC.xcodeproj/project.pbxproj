@@ -24,8 +24,8 @@
 		F4D25B5F201ECF1300300FA2 /* RequestDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */; };
 		F4D25B63201EE91C00300FA2 /* DisplayDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */; };
 		F4D25B64201EE91C00300FA2 /* DisplayDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */; };
-		F4FEFA382019B38F0062396E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFA362019B38F0062396E /* BaseViewController.m */; };
-		F4FEFA392019B38F0062396E /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFA372019B38F0062396E /* BaseViewController.xib */; };
+		F4FEFA382019B38F0062396E /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFA362019B38F0062396E /* LandingViewController.m */; };
+		F4FEFA392019B38F0062396E /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFA372019B38F0062396E /* LandingViewController.xib */; };
 		F4FEFA422019BCDF0062396E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFA402019BCDF0062396E /* WebViewController.m */; };
 		F4FEFA432019BCDF0062396E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFA412019BCDF0062396E /* WebViewController.xib */; };
 /* End PBXBuildFile section */
@@ -60,9 +60,9 @@
 		F4D25B60201EE91C00300FA2 /* DisplayDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayDataViewController.h; sourceTree = "<group>"; };
 		F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayDataViewController.m; sourceTree = "<group>"; };
 		F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayDataViewController.xib; sourceTree = "<group>"; };
-		F4FEFA352019B38F0062396E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		F4FEFA362019B38F0062396E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		F4FEFA372019B38F0062396E /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		F4FEFA352019B38F0062396E /* LandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		F4FEFA362019B38F0062396E /* LandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		F4FEFA372019B38F0062396E /* LandingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
 		F4FEFA3F2019BCDF0062396E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		F4FEFA402019BCDF0062396E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		F4FEFA412019BCDF0062396E /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
@@ -98,11 +98,13 @@
 		F42D9BF42015CAD200F905E5 /* testTransitionLoadingVC */ = {
 			isa = PBXGroup;
 			children = (
-				F4B469282018370A00FF37ED /* Xib */,
 				F4B4692620181EE900FF37ED /* Extensions */,
-				F4B4692720181F0100FF37ED /* ViewController */,
+				F4B469282018370A00FF37ED /* View */,
+				F4B4692720181F0100FF37ED /* Controller */,
 				F42D9BF62015CAD200F905E5 /* AppDelegate.m */,
 				F42D9BF52015CAD200F905E5 /* AppDelegate.h */,
+				F4FEFA352019B38F0062396E /* LandingViewController.h */,
+				F4FEFA362019B38F0062396E /* LandingViewController.m */,
 				F42D9BFB2015CAD200F905E5 /* Main.storyboard */,
 				F42D9BFE2015CAD200F905E5 /* Assets.xcassets */,
 				F42D9C002015CAD200F905E5 /* LaunchScreen.storyboard */,
@@ -121,26 +123,19 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		F4B4692720181F0100FF37ED /* ViewController */ = {
+		F4B4692720181F0100FF37ED /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F4FEFA352019B38F0062396E /* BaseViewController.h */,
-				F4FEFA362019B38F0062396E /* BaseViewController.m */,
-				F4FEFA372019B38F0062396E /* BaseViewController.xib */,
 				F42D9C0B2015CB1900F905E5 /* ViewController2.h */,
 				F42D9C0C2015CB1900F905E5 /* ViewController2.m */,
 				F4FEFA3F2019BCDF0062396E /* WebViewController.h */,
 				F4FEFA402019BCDF0062396E /* WebViewController.m */,
-				F4FEFA412019BCDF0062396E /* WebViewController.xib */,
 				F4D25B5B201ECF1300300FA2 /* RequestDataViewController.h */,
 				F4D25B5C201ECF1300300FA2 /* RequestDataViewController.m */,
-				F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */,
 				F4D25B60201EE91C00300FA2 /* DisplayDataViewController.h */,
 				F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */,
-				F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */,
 				F4A6824C20185BB30022DF55 /* ErrorMessageViewController.h */,
 				F4A6824D20185BB30022DF55 /* ErrorMessageViewController.m */,
-				F4A6824E20185BB30022DF55 /* ErrorMessageViewController.xib */,
 				F42D9C112015DCB400F905E5 /* GenerateArchitectureViewController.h */,
 				F42D9C122015DCB400F905E5 /* GenerateArchitectureViewController.m */,
 				F42D9BF82015CAD200F905E5 /* ViewController.h */,
@@ -150,14 +145,19 @@
 				F4D203F32016D724009FEBA4 /* LoadingViewController.h */,
 				F4D203F42016D724009FEBA4 /* LoadingViewController.m */,
 			);
-			path = ViewController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		F4B469282018370A00FF37ED /* Xib */ = {
+		F4B469282018370A00FF37ED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */,
+				F4FEFA372019B38F0062396E /* LandingViewController.xib */,
+				F4FEFA412019BCDF0062396E /* WebViewController.xib */,
+				F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */,
+				F4A6824E20185BB30022DF55 /* ErrorMessageViewController.xib */,
 			);
-			path = Xib;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42D9C022015CAD200F905E5 /* LaunchScreen.storyboard in Resources */,
-				F4FEFA392019B38F0062396E /* BaseViewController.xib in Resources */,
+				F4FEFA392019B38F0062396E /* LandingViewController.xib in Resources */,
 				F4D25B5F201ECF1300300FA2 /* RequestDataViewController.xib in Resources */,
 				F4A6825020185BB30022DF55 /* ErrorMessageViewController.xib in Resources */,
 				F4FEFA432019BCDF0062396E /* WebViewController.xib in Resources */,
@@ -238,7 +238,7 @@
 			files = (
 				F4D25B5E201ECF1300300FA2 /* RequestDataViewController.m in Sources */,
 				F4D203F8201722E6009FEBA4 /* URLViewController.m in Sources */,
-				F4FEFA382019B38F0062396E /* BaseViewController.m in Sources */,
+				F4FEFA382019B38F0062396E /* LandingViewController.m in Sources */,
 				F4FEFA422019BCDF0062396E /* WebViewController.m in Sources */,
 				F42D9BFA2015CAD200F905E5 /* ViewController.m in Sources */,
 				F42D9C0D2015CB1900F905E5 /* ViewController2.m in Sources */,
