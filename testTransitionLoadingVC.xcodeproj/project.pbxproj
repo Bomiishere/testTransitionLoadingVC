@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42D9BF72015CAD200F905E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9BF62015CAD200F905E5 /* AppDelegate.m */; };
+		F42D9BFA2015CAD200F905E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9BF92015CAD200F905E5 /* ViewController.m */; };
+		F42D9BFD2015CAD200F905E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42D9BFB2015CAD200F905E5 /* Main.storyboard */; };
+		F42D9BFF2015CAD200F905E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42D9BFE2015CAD200F905E5 /* Assets.xcassets */; };
+		F42D9C022015CAD200F905E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42D9C002015CAD200F905E5 /* LaunchScreen.storyboard */; };
+		F42D9C052015CAD200F905E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9C042015CAD200F905E5 /* main.m */; };
+		F42D9C0D2015CB1900F905E5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9C0C2015CB1900F905E5 /* ViewController2.m */; };
+		F42D9C102015D7D500F905E5 /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9C0F2015D7D500F905E5 /* UIViewController+Transition.m */; };
+		F42D9C132015DCB400F905E5 /* GenerateArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D9C122015DCB400F905E5 /* GenerateArchitectureViewController.m */; };
+		F4A6824F20185BB30022DF55 /* ErrorMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6824D20185BB30022DF55 /* ErrorMessageViewController.m */; };
+		F4A6825020185BB30022DF55 /* ErrorMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4A6824E20185BB30022DF55 /* ErrorMessageViewController.xib */; };
+		F4D203F52016D724009FEBA4 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D203F42016D724009FEBA4 /* LoadingViewController.m */; };
+		F4D203F8201722E6009FEBA4 /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D203F7201722E6009FEBA4 /* URLViewController.m */; };
+		F4D25B5E201ECF1300300FA2 /* RequestDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D25B5C201ECF1300300FA2 /* RequestDataViewController.m */; };
+		F4D25B5F201ECF1300300FA2 /* RequestDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */; };
+		F4D25B63201EE91C00300FA2 /* DisplayDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */; };
+		F4D25B64201EE91C00300FA2 /* DisplayDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */; };
+		F4FEFA382019B38F0062396E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFA362019B38F0062396E /* BaseViewController.m */; };
+		F4FEFA392019B38F0062396E /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFA372019B38F0062396E /* BaseViewController.xib */; };
+		F4FEFA422019BCDF0062396E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFA402019BCDF0062396E /* WebViewController.m */; };
+		F4FEFA432019BCDF0062396E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFA412019BCDF0062396E /* WebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42D9BF22015CAD200F905E5 /* testTransitionLoadingVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTransitionLoadingVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42D9BF52015CAD200F905E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F42D9BF62015CAD200F905E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F42D9BF82015CAD200F905E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F42D9BF92015CAD200F905E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F42D9BFC2015CAD200F905E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42D9BFE2015CAD200F905E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42D9C012015CAD200F905E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42D9C032015CAD200F905E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42D9C042015CAD200F905E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F42D9C0B2015CB1900F905E5 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		F42D9C0C2015CB1900F905E5 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		F42D9C0E2015D7D500F905E5 /* UIViewController+Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
+		F42D9C0F2015D7D500F905E5 /* UIViewController+Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
+		F42D9C112015DCB400F905E5 /* GenerateArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateArchitectureViewController.h; sourceTree = "<group>"; };
+		F42D9C122015DCB400F905E5 /* GenerateArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateArchitectureViewController.m; sourceTree = "<group>"; };
+		F4A6824C20185BB30022DF55 /* ErrorMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorMessageViewController.h; sourceTree = "<group>"; };
+		F4A6824D20185BB30022DF55 /* ErrorMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorMessageViewController.m; sourceTree = "<group>"; };
+		F4A6824E20185BB30022DF55 /* ErrorMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorMessageViewController.xib; sourceTree = "<group>"; };
+		F4D203F32016D724009FEBA4 /* LoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		F4D203F42016D724009FEBA4 /* LoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		F4D203F6201722E6009FEBA4 /* URLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLViewController.h; sourceTree = "<group>"; };
+		F4D203F7201722E6009FEBA4 /* URLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLViewController.m; sourceTree = "<group>"; };
+		F4D25B5B201ECF1300300FA2 /* RequestDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestDataViewController.h; sourceTree = "<group>"; };
+		F4D25B5C201ECF1300300FA2 /* RequestDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestDataViewController.m; sourceTree = "<group>"; };
+		F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestDataViewController.xib; sourceTree = "<group>"; };
+		F4D25B60201EE91C00300FA2 /* DisplayDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayDataViewController.h; sourceTree = "<group>"; };
+		F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayDataViewController.m; sourceTree = "<group>"; };
+		F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayDataViewController.xib; sourceTree = "<group>"; };
+		F4FEFA352019B38F0062396E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F4FEFA362019B38F0062396E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F4FEFA372019B38F0062396E /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		F4FEFA3F2019BCDF0062396E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F4FEFA402019BCDF0062396E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F4FEFA412019BCDF0062396E /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42D9BEF2015CAD200F905E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42D9BE92015CAD200F905E5 = {
+			isa = PBXGroup;
+			children = (
+				F42D9BF42015CAD200F905E5 /* testTransitionLoadingVC */,
+				F42D9BF32015CAD200F905E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42D9BF32015CAD200F905E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42D9BF22015CAD200F905E5 /* testTransitionLoadingVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42D9BF42015CAD200F905E5 /* testTransitionLoadingVC */ = {
+			isa = PBXGroup;
+			children = (
+				F4B469282018370A00FF37ED /* Xib */,
+				F4B4692620181EE900FF37ED /* Extensions */,
+				F4B4692720181F0100FF37ED /* ViewController */,
+				F42D9BF62015CAD200F905E5 /* AppDelegate.m */,
+				F42D9BF52015CAD200F905E5 /* AppDelegate.h */,
+				F42D9BFB2015CAD200F905E5 /* Main.storyboard */,
+				F42D9BFE2015CAD200F905E5 /* Assets.xcassets */,
+				F42D9C002015CAD200F905E5 /* LaunchScreen.storyboard */,
+				F42D9C032015CAD200F905E5 /* Info.plist */,
+				F42D9C042015CAD200F905E5 /* main.m */,
+			);
+			path = testTransitionLoadingVC;
+			sourceTree = "<group>";
+		};
+		F4B4692620181EE900FF37ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F42D9C0E2015D7D500F905E5 /* UIViewController+Transition.h */,
+				F42D9C0F2015D7D500F905E5 /* UIViewController+Transition.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4B4692720181F0100FF37ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFA352019B38F0062396E /* BaseViewController.h */,
+				F4FEFA362019B38F0062396E /* BaseViewController.m */,
+				F4FEFA372019B38F0062396E /* BaseViewController.xib */,
+				F42D9C0B2015CB1900F905E5 /* ViewController2.h */,
+				F42D9C0C2015CB1900F905E5 /* ViewController2.m */,
+				F4FEFA3F2019BCDF0062396E /* WebViewController.h */,
+				F4FEFA402019BCDF0062396E /* WebViewController.m */,
+				F4FEFA412019BCDF0062396E /* WebViewController.xib */,
+				F4D25B5B201ECF1300300FA2 /* RequestDataViewController.h */,
+				F4D25B5C201ECF1300300FA2 /* RequestDataViewController.m */,
+				F4D25B5D201ECF1300300FA2 /* RequestDataViewController.xib */,
+				F4D25B60201EE91C00300FA2 /* DisplayDataViewController.h */,
+				F4D25B61201EE91C00300FA2 /* DisplayDataViewController.m */,
+				F4D25B62201EE91C00300FA2 /* DisplayDataViewController.xib */,
+				F4A6824C20185BB30022DF55 /* ErrorMessageViewController.h */,
+				F4A6824D20185BB30022DF55 /* ErrorMessageViewController.m */,
+				F4A6824E20185BB30022DF55 /* ErrorMessageViewController.xib */,
+				F42D9C112015DCB400F905E5 /* GenerateArchitectureViewController.h */,
+				F42D9C122015DCB400F905E5 /* GenerateArchitectureViewController.m */,
+				F42D9BF82015CAD200F905E5 /* ViewController.h */,
+				F42D9BF92015CAD200F905E5 /* ViewController.m */,
+				F4D203F6201722E6009FEBA4 /* URLViewController.h */,
+				F4D203F7201722E6009FEBA4 /* URLViewController.m */,
+				F4D203F32016D724009FEBA4 /* LoadingViewController.h */,
+				F4D203F42016D724009FEBA4 /* LoadingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F4B469282018370A00FF37ED /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42D9BF12015CAD200F905E5 /* testTransitionLoadingVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42D9C082015CAD200F905E5 /* Build configuration list for PBXNativeTarget "testTransitionLoadingVC" */;
+			buildPhases = (
+				F42D9BEE2015CAD200F905E5 /* Sources */,
+				F42D9BEF2015CAD200F905E5 /* Frameworks */,
+				F42D9BF02015CAD200F905E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testTransitionLoadingVC;
+			productName = testTransitionLoadingVC;
+			productReference = F42D9BF22015CAD200F905E5 /* testTransitionLoadingVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42D9BEA2015CAD200F905E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PrototypeC;
+				TargetAttributes = {
+					F42D9BF12015CAD200F905E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F42D9BED2015CAD200F905E5 /* Build configuration list for PBXProject "testTransitionLoadingVC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42D9BE92015CAD200F905E5;
+			productRefGroup = F42D9BF32015CAD200F905E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42D9BF12015CAD200F905E5 /* testTransitionLoadingVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42D9BF02015CAD200F905E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42D9C022015CAD200F905E5 /* LaunchScreen.storyboard in Resources */,
+				F4FEFA392019B38F0062396E /* BaseViewController.xib in Resources */,
+				F4D25B5F201ECF1300300FA2 /* RequestDataViewController.xib in Resources */,
+				F4A6825020185BB30022DF55 /* ErrorMessageViewController.xib in Resources */,
+				F4FEFA432019BCDF0062396E /* WebViewController.xib in Resources */,
+				F4D25B64201EE91C00300FA2 /* DisplayDataViewController.xib in Resources */,
+				F42D9BFF2015CAD200F905E5 /* Assets.xcassets in Resources */,
+				F42D9BFD2015CAD200F905E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42D9BEE2015CAD200F905E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D25B5E201ECF1300300FA2 /* RequestDataViewController.m in Sources */,
+				F4D203F8201722E6009FEBA4 /* URLViewController.m in Sources */,
+				F4FEFA382019B38F0062396E /* BaseViewController.m in Sources */,
+				F4FEFA422019BCDF0062396E /* WebViewController.m in Sources */,
+				F42D9BFA2015CAD200F905E5 /* ViewController.m in Sources */,
+				F42D9C0D2015CB1900F905E5 /* ViewController2.m in Sources */,
+				F4A6824F20185BB30022DF55 /* ErrorMessageViewController.m in Sources */,
+				F42D9C132015DCB400F905E5 /* GenerateArchitectureViewController.m in Sources */,
+				F4D203F52016D724009FEBA4 /* LoadingViewController.m in Sources */,
+				F42D9C102015D7D500F905E5 /* UIViewController+Transition.m in Sources */,
+				F42D9C052015CAD200F905E5 /* main.m in Sources */,
+				F4D25B63201EE91C00300FA2 /* DisplayDataViewController.m in Sources */,
+				F42D9BF72015CAD200F905E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42D9BFB2015CAD200F905E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42D9BFC2015CAD200F905E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42D9C002015CAD200F905E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42D9C012015CAD200F905E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42D9C062015CAD200F905E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F42D9C072015CAD200F905E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42D9C092015CAD200F905E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 844T839J88;
+				INFOPLIST_FILE = testTransitionLoadingVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrototypeC.testTransitionLoadingVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42D9C0A2015CAD200F905E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 844T839J88;
+				INFOPLIST_FILE = testTransitionLoadingVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrototypeC.testTransitionLoadingVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42D9BED2015CAD200F905E5 /* Build configuration list for PBXProject "testTransitionLoadingVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42D9C062015CAD200F905E5 /* Debug */,
+				F42D9C072015CAD200F905E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42D9C082015CAD200F905E5 /* Build configuration list for PBXNativeTarget "testTransitionLoadingVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42D9C092015CAD200F905E5 /* Debug */,
+				F42D9C0A2015CAD200F905E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42D9BEA2015CAD200F905E5 /* Project object */;
+}

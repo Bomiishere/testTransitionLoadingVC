@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseViewController">
+            <connections>
+                <outlet property="loadButton" destination="Q8O-EU-XWs" id="9w6-SI-DEB"/>
+                <outlet property="naviStackButton" destination="mM5-F0-kAj" id="H6A-uR-yvs"/>
+                <outlet property="presentButton" destination="38t-WF-xMc" id="xVQ-Yl-zBl"/>
+                <outlet property="pushButton" destination="F92-Hl-3FV" id="37a-2x-hCY"/>
+                <outlet property="pushLoadButton" destination="dt2-Yb-lI2" id="AWc-M3-1CB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F92-Hl-3FV">
+                    <rect key="frame" x="16" y="168" width="343" height="80"/>
+                    <color key="backgroundColor" red="0.58039224150000002" green="0.85098052020000003" blue="0.96470600370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="QuS-Dg-ezf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Push ViewController">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8O-EU-XWs">
+                    <rect key="frame" x="16" y="278" width="343" height="80"/>
+                    <color key="backgroundColor" red="1" green="0.66584310001255953" blue="0.34647527056347383" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="jlO-Bv-rlB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Load ViewController">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38t-WF-xMc">
+                    <rect key="frame" x="16" y="50" width="343" height="80"/>
+                    <color key="backgroundColor" red="0.58039224150000002" green="0.85098052020000003" blue="0.96470600370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Q1n-3x-F2q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Present ViewController">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-F0-kAj">
+                    <rect key="frame" x="16" y="484" width="343" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="uOm-yD-Twz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Navi Stack ViewController">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dt2-Yb-lI2">
+                    <rect key="frame" x="16" y="384" width="343" height="80"/>
+                    <color key="backgroundColor" red="1" green="0.66584310000000002" blue="0.3464752706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Ma0-PC-7h8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Push Loading ViewController">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="38t-WF-xMc" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="0rB-aS-IkL"/>
+                <constraint firstItem="dt2-Yb-lI2" firstAttribute="top" secondItem="Q8O-EU-XWs" secondAttribute="bottom" constant="26" id="8mP-Uc-LI1"/>
+                <constraint firstItem="dt2-Yb-lI2" firstAttribute="leading" secondItem="mM5-F0-kAj" secondAttribute="leading" id="A18-8r-nsy"/>
+                <constraint firstItem="38t-WF-xMc" firstAttribute="leading" secondItem="F92-Hl-3FV" secondAttribute="leading" id="Flx-Va-8wv"/>
+                <constraint firstItem="dt2-Yb-lI2" firstAttribute="trailing" secondItem="mM5-F0-kAj" secondAttribute="trailing" id="GeL-cf-qKH"/>
+                <constraint firstItem="F92-Hl-3FV" firstAttribute="top" secondItem="38t-WF-xMc" secondAttribute="bottom" constant="38" id="LD4-X7-CRH"/>
+                <constraint firstItem="F92-Hl-3FV" firstAttribute="leading" secondItem="Q8O-EU-XWs" secondAttribute="leading" id="Nhl-wi-eRO"/>
+                <constraint firstItem="38t-WF-xMc" firstAttribute="trailing" secondItem="F92-Hl-3FV" secondAttribute="trailing" id="PEI-KS-GGX"/>
+                <constraint firstItem="Q8O-EU-XWs" firstAttribute="trailing" secondItem="dt2-Yb-lI2" secondAttribute="trailing" id="PI7-ae-GCr"/>
+                <constraint firstItem="Q8O-EU-XWs" firstAttribute="leading" secondItem="dt2-Yb-lI2" secondAttribute="leading" id="Upd-KR-uNz"/>
+                <constraint firstItem="mM5-F0-kAj" firstAttribute="top" secondItem="dt2-Yb-lI2" secondAttribute="bottom" constant="20" id="ZOy-NV-YKA"/>
+                <constraint firstItem="38t-WF-xMc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="b0X-gG-ok4"/>
+                <constraint firstItem="F92-Hl-3FV" firstAttribute="trailing" secondItem="Q8O-EU-XWs" secondAttribute="trailing" id="g7Y-cR-1rX"/>
+                <constraint firstItem="Q8O-EU-XWs" firstAttribute="top" secondItem="F92-Hl-3FV" secondAttribute="bottom" constant="30" id="nJ7-vb-m1e"/>
+                <constraint firstItem="38t-WF-xMc" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="rLC-o9-Air"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>
